@@ -13,8 +13,6 @@ from langchain_core.documents import Document
 import numpy as np
 import pickle
 
-# Load env vars
-load_dotenv()
 
 st.set_page_config(page_title="Ollama File QA Chatbot", layout="wide")
 st.title("📄 Persistent File QA Chatbot (Ollama + FAISS)")
