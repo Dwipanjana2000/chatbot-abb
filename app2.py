@@ -15,7 +15,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 st.set_page_config(page_title="Gemini File QA Chatbot", layout="wide")
-st.title("📄 Persistent File QA Chatbot (Gemini + FAISS)")
+st.title("Risk & Compliance")
 INDEX_PATH = "faiss_index"
 class PrecomputedEmbeddings(Embeddings):
     """Use precomputed embeddings inside FAISS."""
