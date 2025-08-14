@@ -1,0 +1,11 @@
+streamlit
+python-dotenv
+pytesseract
+pdf2image
+pymupdf
+docx2txt
+langchain
+langchain-community
+langchain-ollama
+faiss-cpu
+numpy
