@@ -9,3 +9,4 @@ langchain-community
 langchain-ollama
 faiss-cpu
 numpy
+google-generativeai
